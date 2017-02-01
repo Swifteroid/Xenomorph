@@ -1,0 +1,6 @@
+#include "../../dependency/xcconfigs/Base/Configurations/Release.xcconfig"
+#include "./Common.xcconfig"
+
+// Indicates that binaries should be stripped and file mode, owner, and group information should be set to standard values.
+
+DEPLOYMENT_POSTPROCESSING = YES
