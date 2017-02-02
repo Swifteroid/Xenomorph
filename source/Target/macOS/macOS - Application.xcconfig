@@ -1,0 +1,2 @@
+#include "../../../dependency/xcconfigs/Mac OS X/Mac-Application.xcconfig"
+#include "../Application.xcconfig"

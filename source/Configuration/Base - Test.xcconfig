@@ -1,2 +1,2 @@
 #include "../../dependency/xcconfigs/Base/Configurations/Test.xcconfig"
-#include "./Common.xcconfig"
+#include "Common.xcconfig"
