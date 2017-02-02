@@ -5,7 +5,7 @@ SWIFT_TREAT_WARNINGS_AS_ERRORS = NO
 
 // Build product path.
 
-SYMROOT = "product/xcode"
+SYMROOT = product/xcode
 
 // All symbols are declared 'private extern' unless explicitly marked to be exported using '__attribute__((visibility("default")))' in code.
 
@@ -13,8 +13,10 @@ GCC_SYMBOLS_PRIVATE_EXTERN = YES
 
 // Use legacy Swift language version.
 
-SWIFT_VERSION = NO
+SWIFT_VERSION = 3.0
 
 // Controls whether assertion logic provided by NSAssert is included in the preprocessed source code or is elided during preprocessing.
 
 ENABLE_NS_ASSERTIONS = NO
+
+INFOPLIST_FILE = accessory/info
