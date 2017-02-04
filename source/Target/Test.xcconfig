@@ -1,3 +1,4 @@
+#include "../../dependency/xcconfigs/Base/Targets/Application.xcconfig"
 #include "Common.xcconfig"
 
 INFOPLIST_FILE = $(inherited)/test.plist
