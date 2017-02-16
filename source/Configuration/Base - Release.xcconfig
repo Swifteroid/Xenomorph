@@ -4,3 +4,8 @@
 // Indicates that binaries should be stripped and file mode, owner, and group information should be set to standard values.
 
 DEPLOYMENT_POSTPROCESSING = YES
+
+// Disable this, because we strip linked products during post-processing, while this often causes problems when copying
+// debug symbols or other stuff.
+
+COPY_PHASE_STRIP = NO
